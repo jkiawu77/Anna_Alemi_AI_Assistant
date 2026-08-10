@@ -1,0 +1,126 @@
+{
+  "intents": [
+    {
+      "intent": "buyer",
+      "category": "Buyer",
+      "keywords": [
+        "buy a home",
+        "buy a house",
+        "buy property",
+        "looking to buy",
+        "looking for a home",
+        "first-time buyer",
+        "first home",
+        "purchase a home",
+        "purchase property",
+        "home buyer",
+        "house hunting",
+        "looking for a condo",
+        "looking for a townhouse",
+        "looking for a detached home",
+        "want to own a home"
+      ],
+      "route_to": "ISA Team"
+    },
+    {
+      "intent": "seller",
+      "category": "Seller",
+      "keywords": [
+        "sell my home",
+        "sell my house",
+        "sell my property",
+        "thinking of selling",
+        "want to sell",
+        "home seller",
+        "selling my house",
+        "selling my home",
+        "selling property",
+        "list my home",
+        "list my property",
+        "how much is my house worth",
+        "property valuation",
+        "home value"
+      ],
+      "route_to": "ISA Team"
+    },
+{
+  "intent": "investor",
+  "category": "Investor",
+  "keywords": [
+    "investment property",
+    "real estate investment",
+    "invest in real estate",
+    "property investment",
+    "rental property",
+    "rental investment",
+    "buy an investment property",
+    "income property",
+    "cash flow property",
+    "real estate investor",
+    "invest in Ottawa",
+    "duplex investment",
+    "multi-unit property"
+  ],
+  "route_to": "ISA Team"
+},
+{
+  "intent": "military_relocation",
+  "category": "Military Relocation",
+  "keywords": [
+    "military relocation",
+    "military move",
+    "military posting",
+    "posted to Ottawa",
+    "posted in Ottawa",
+    "CAF relocation",
+    "Canadian Armed Forces relocation",
+    "house hunting trip",
+    "HHT",
+    "military family move",
+    "relocation due to posting",
+    "new posting",
+    "short notice posting",
+    "military transfer"
+  ],
+  "route_to": "ISA Team - Military Relocation"
+},
+{
+  "intent": "ottawa_relocation",
+  "category": "Ottawa Relocation",
+  "keywords": [
+    "moving to Ottawa",
+    "relocating to Ottawa",
+    "move to Ottawa",
+    "Ottawa relocation",
+    "new to Ottawa",
+    "moving from another city",
+    "moving from another province",
+    "where should I live in Ottawa",
+    "Ottawa neighbourhood",
+    "Ottawa housing",
+    "relocation help Ottawa"
+  ],
+  "route_to": "ISA Team"
+},
+{
+  "intent": "general_real_estate",
+  "category": "General Real Estate",
+  "keywords": [
+    "real estate question",
+    "real estate information",
+    "housing market",
+    "property market",
+    "real estate market",
+    "closing date",
+    "conditional offer",
+    "firm offer",
+    "property tax",
+    "title insurance",
+    "market value",
+    "real estate agent",
+    "realtor"
+  ],
+  "route_to": "ISA Team"
+}
+  ]
+}

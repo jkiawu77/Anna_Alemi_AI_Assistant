@@ -1,0 +1,212 @@
+{
+  "routing_rules": [
+    {
+      "intent": "buyer",
+      "category": "Buyer",
+      "default_route": "ISA Team",
+      "priority_rules": {
+        "high": [
+          "timeline within 3 months",
+          "mortgage pre-approval confirmed",
+          "contact information provided",
+          "clear property preference"
+        ],
+        "medium": [
+          "timeline between 3 and 12 months",
+          "general property interest",
+          "some lead information provided"
+        ],
+        "low": [
+          "timeline over 12 months",
+          "early research stage",
+          "no contact information provided"
+        ]
+      },
+      "escalate_if": [
+        "legal advice requested",
+        "mortgage or financial advice requested",
+        "user requests human assistance",
+        "AI cannot answer using approved knowledge"
+      ],
+      "recommended_next_action": "ISA Team follow-up"
+    },
+{
+  "intent": "seller",
+  "category": "Seller",
+  "default_route": "ISA Team",
+  "priority_rules": {
+    "high": [
+      "selling timeline within 3 months",
+      "property location provided",
+      "contact information provided",
+      "seller requests valuation or immediate consultation"
+    ],
+    "medium": [
+      "selling timeline between 3 and 12 months",
+      "property details partially provided",
+      "seller is considering options"
+    ],
+    "low": [
+      "selling timeline over 12 months",
+      "early research stage",
+      "no contact information provided"
+    ]
+  },
+  "escalate_if": [
+    "legal advice requested",
+    "tax advice requested",
+    "formal property valuation requested",
+    "user requests human assistance",
+    "AI cannot answer using approved knowledge"
+  ],
+  "recommended_next_action": "ISA Team follow-up"
+},
+
+{
+  "intent": "investor",
+  "category": "Investor",
+  "default_route": "ISA Team",
+  "priority_rules": {
+    "high": [
+      "investment timeline within 3 months",
+      "budget range provided",
+      "financing readiness confirmed",
+      "clear investment goal identified",
+      "contact information provided"
+    ],
+    "medium": [
+      "investment timeline between 3 and 12 months",
+      "general investment interest identified",
+      "some investment requirements provided"
+    ],
+    "low": [
+      "investment timeline over 12 months",
+      "early research stage",
+      "investment requirements unclear",
+      "no contact information provided"
+    ]
+  },
+  "escalate_if": [
+    "legal advice requested",
+    "tax advice requested",
+    "mortgage or financial advice requested",
+    "specific return on investment guarantee requested",
+    "user requests human assistance",
+    "AI cannot answer using approved knowledge"
+  ],
+  "recommended_next_action": "ISA Team follow-up"
+},
+{
+  "intent": "military_relocation",
+  "category": "Military Relocation",
+  "default_route": "ISA Team - Military Relocation",
+  "priority_rules": {
+    "high": [
+      "report-for-duty or relocation date within 3 months",
+      "House-Hunting Trip scheduled",
+      "urgent housing need identified",
+      "clear housing preference provided",
+      "contact information provided"
+    ],
+    "medium": [
+      "relocation timeline between 3 and 12 months",
+      "posting confirmed",
+      "housing requirements partially provided"
+    ],
+    "low": [
+      "relocation timeline over 12 months",
+      "early planning stage",
+      "posting details not yet confirmed",
+      "no contact information provided"
+    ]
+  },
+  "escalate_if": [
+    "legal advice requested",
+    "mortgage or financial advice requested",
+    "relocation entitlement or benefit interpretation requested",
+    "user requests human assistance",
+    "AI cannot answer using approved knowledge"
+  ],
+  "special_flags": [
+    "Military Relocation",
+    "House-Hunting Trip",
+    "Time-Sensitive Posting"
+  ],
+  "recommended_next_action": "Priority ISA Team military relocation follow-up"
+},
+
+{
+  "intent": "ottawa_relocation",
+  "category": "Ottawa Relocation",
+  "default_route": "ISA Team",
+  "priority_rules": {
+    "high": [
+      "relocation date within 3 months",
+      "urgent housing need identified",
+      "clear housing preference provided",
+      "preferred location identified",
+      "contact information provided"
+    ],
+    "medium": [
+      "relocation timeline between 3 and 12 months",
+      "housing requirements partially provided",
+      "visitor is actively comparing Ottawa neighbourhoods"
+    ],
+    "low": [
+      "relocation timeline over 12 months",
+      "early research stage",
+      "housing requirements unclear",
+      "no contact information provided"
+    ]
+  },
+  "escalate_if": [
+    "legal advice requested",
+    "mortgage or financial advice requested",
+    "tax advice requested",
+    "user requests human assistance",
+    "AI cannot answer using approved knowledge"
+  ],
+  "special_flags": [
+    "Ottawa Relocation",
+    "New-to-Ottawa Client"
+  ],
+  "recommended_next_action": "ISA Team relocation follow-up"
+},
+{
+  "intent": "general_real_estate",
+  "category": "General Real Estate",
+  "default_route": "ISA Team",
+  "priority_rules": {
+    "high": [
+      "user requests immediate human assistance",
+      "user expresses a clear buying, selling, investing, or relocation need",
+      "contact information provided",
+      "time-sensitive real estate question identified"
+    ],
+    "medium": [
+      "user has a defined real estate interest",
+      "some timeline information provided",
+      "user is considering future action"
+    ],
+    "low": [
+      "general information request only",
+      "early research stage",
+      "no immediate real estate plans",
+      "no contact information provided"
+    ]
+  },
+  "escalate_if": [
+    "legal advice requested",
+    "tax advice requested",
+    "mortgage or financial advice requested",
+    "formal property valuation requested",
+    "user requests human assistance",
+    "AI cannot answer using approved knowledge"
+  ],
+  "special_flags": [
+    "General Inquiry"
+  ],
+  "recommended_next_action": "Provide approved information and offer ISA Team follow-up if requested"
+}
+  ]
+}

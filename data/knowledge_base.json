@@ -1,0 +1,1023 @@
+{
+  "knowledge_base": [
+{
+  "id": "BUY001",
+  "category": "Buyer",
+  "intent": "first_time_homebuyer",
+  "keywords": [
+    "first-time buyer",
+    "first home",
+    "buying my first home",
+    "where do I start",
+    "homebuyer"
+  ],
+  "question": "I am a first-time homebuyer. Where should I start?",
+  "answer": "Begin by assessing your budget, speaking with a mortgage professional, and identifying your housing priorities before starting your property search.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+
+{
+  "id": "BUY002",
+  "category": "Buyer",
+  "intent": "home_buying_timeline",
+  "keywords": [
+    "how long to buy",
+    "buying process",
+    "home buying timeline",
+    "how long does buying take",
+    "purchase timeline"
+  ],
+  "question": "How long does the home-buying process usually take?",
+  "answer": "The timeline varies, but it typically includes mortgage pre-approval, property search, offer negotiation, financing approval, and closing.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "BUY003",
+  "category": "Buyer",
+  "intent": "mortgage_preapproval",
+  "keywords": [
+    "mortgage pre-approval",
+    "pre-approved",
+    "preapproval",
+    "mortgage before buying",
+    "buying budget"
+  ],
+  "question": "Why should I get pre-approved before looking at homes?",
+  "answer": "A mortgage pre-approval helps determine your budget and demonstrates to sellers that you are a serious buyer.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "BUY004",
+  "category": "Buyer",
+  "intent": "choose_neighbourhood",
+  "keywords": [
+    "choose neighbourhood",
+    "best neighbourhood",
+    "where should I live",
+    "neighbourhood",
+    "area to buy"
+  ],
+  "question": "What should I look for when choosing a neighbourhood?",
+  "answer": "Consider commute times, schools, safety, amenities, public transit, future development, and lifestyle preferences.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "BUY005",
+  "category": "Buyer",
+  "intent": "buyer_additional_costs",
+  "keywords": [
+    "buying costs",
+    "closing costs",
+    "additional costs",
+    "purchase expenses",
+    "cost besides purchase price"
+  ],
+  "question": "What costs should I budget for besides the purchase price?",
+  "answer": "Buyers should budget for legal fees, inspections, land transfer taxes, moving expenses, and closing costs.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "BUY006",
+  "category": "Buyer",
+  "intent": "offer_conditions",
+  "keywords": [
+    "offer conditions",
+    "conditional offer",
+    "financing condition",
+    "inspection condition",
+    "conditions in offer"
+  ],
+  "question": "Should I include conditions in my offer?",
+  "answer": "Conditions such as financing and home inspection can help protect your interests, depending on market conditions.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "BUY007",
+  "category": "Buyer",
+  "intent": "home_inspection",
+  "keywords": [
+    "home inspection",
+    "property inspection",
+    "house inspection",
+    "inspection before purchase"
+  ],
+  "question": "What is a home inspection?",
+  "answer": "A home inspection is a professional assessment of a property's condition that can identify potential issues before purchase.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "BUY008",
+  "category": "Buyer",
+  "intent": "property_investment_value",
+  "keywords": [
+    "good investment",
+    "property investment",
+    "investment potential",
+    "resale potential",
+    "property value"
+  ],
+  "question": "How do I know if a property is a good investment?",
+  "answer": "Evaluate location, market trends, property condition, resale potential, and long-term growth prospects.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "BUY009",
+  "category": "Buyer",
+  "intent": "buy_before_selling",
+  "keywords": [
+    "buy before selling",
+    "buy another home",
+    "current property",
+    "sell current home",
+    "buy and sell"
+  ],
+  "question": "Can I buy a home before selling my current property?",
+  "answer": "Depending on your finances and lending approval, it may be possible. Consult your mortgage professional for options.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "BUY010",
+  "category": "Buyer",
+  "intent": "accepted_offer_next_steps",
+  "keywords": [
+    "offer accepted",
+    "accepted offer",
+    "what happens next",
+    "after offer",
+    "closing process"
+  ],
+  "question": "What happens after my offer is accepted?",
+  "answer": "The transaction moves through financing, inspections, legal review, and closing preparations before possession.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "GEN001",
+  "category": "General Real Estate",
+  "intent": "real_estate_agent_role",
+  "keywords": [
+    "real estate agent",
+    "what does an agent do",
+    "realtor",
+    "agent role",
+    "real estate professional"
+  ],
+  "question": "What does a real estate agent do?",
+  "answer": "A real estate agent assists clients with buying, selling, and negotiating property transactions while providing market guidance.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "GEN002",
+  "category": "General Real Estate",
+  "intent": "property_market_value",
+  "keywords": [
+    "market value",
+    "property value",
+    "home value",
+    "house worth",
+    "property worth"
+  ],
+  "question": "What is market value?",
+  "answer": "Market value is the estimated price a property may sell for based on current market conditions and comparable properties.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "GEN003",
+  "category": "General Real Estate",
+  "intent": "closing_date",
+  "keywords": [
+    "closing date",
+    "closing",
+    "possession date",
+    "property transfer",
+    "ownership transfer"
+  ],
+  "question": "What is a closing date?",
+  "answer": "The closing date is when ownership of the property officially transfers from the seller to the buyer.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "GEN004",
+  "category": "General Real Estate",
+  "intent": "multiple_offers",
+  "keywords": [
+    "multiple offers",
+    "competing offers",
+    "offer competition",
+    "bidding",
+    "several buyers"
+  ],
+  "question": "What is a multiple-offer situation?",
+  "answer": "A multiple-offer situation occurs when more than one buyer submits an offer on the same property.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "GEN005",
+  "category": "General Real Estate",
+  "intent": "conditional_offer",
+  "keywords": [
+    "conditional offer",
+    "offer condition",
+    "conditions",
+    "financing condition",
+    "inspection condition"
+  ],
+  "question": "What is a conditional offer?",
+  "answer": "A conditional offer includes requirements that must be satisfied before the transaction becomes firm.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "GEN006",
+  "category": "General Real Estate",
+  "intent": "firm_offer",
+  "keywords": [
+    "firm offer",
+    "unconditional offer",
+    "no conditions",
+    "offer without conditions"
+  ],
+  "question": "What is a firm offer?",
+  "answer": "A firm offer has no conditions and becomes binding once accepted.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "GEN007",
+  "category": "General Real Estate",
+  "intent": "title_insurance",
+  "keywords": [
+    "title insurance",
+    "property title",
+    "ownership issues",
+    "title problems"
+  ],
+  "question": "What is title insurance?",
+  "answer": "Title insurance protects property owners and lenders against certain ownership or title-related issues.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "GEN008",
+  "category": "General Real Estate",
+  "intent": "property_tax",
+  "keywords": [
+    "property tax",
+    "property taxes",
+    "municipal tax",
+    "home taxes",
+    "taxes on property"
+  ],
+  "question": "What are property taxes?",
+  "answer": "Property taxes are municipal taxes based on the assessed value of a property.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "GEN009",
+  "category": "General Real Estate",
+  "intent": "real_estate_market_change",
+  "keywords": [
+    "market changes",
+    "real estate market",
+    "housing market",
+    "market conditions",
+    "why market changes"
+  ],
+  "question": "Why does the real estate market change?",
+  "answer": "Market conditions are influenced by interest rates, housing supply, demand, employment, and economic conditions.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "GEN010",
+  "category": "General Real Estate",
+  "intent": "real_estate_consultation",
+  "keywords": [
+    "consultation",
+    "real estate consultation",
+    "meet with agent",
+    "speak with realtor",
+    "real estate meeting"
+  ],
+  "question": "What should I expect during a real estate consultation?",
+  "answer": "A consultation typically includes discussing your goals, timeline, budget, and next steps.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "INV001",
+  "category": "Investor",
+  "intent": "investment_planning",
+  "keywords": [
+    "invest in real estate",
+    "real estate investment",
+    "start investing",
+    "investment planning",
+    "property investor"
+  ],
+  "question": "What should I consider before investing in real estate?",
+  "answer": "Consider your investment goals, budget, financing options, risk tolerance, expected return, and preferred property type before making an investment decision.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "INV002",
+  "category": "Investor",
+  "intent": "ottawa_investment_property_types",
+  "keywords": [
+    "investment properties Ottawa",
+    "Ottawa investment property",
+    "rental property Ottawa",
+    "duplex Ottawa",
+    "multi-unit property"
+  ],
+  "question": "What types of investment properties are available in Ottawa?",
+  "answer": "Investors can consider single-family homes, condominiums, duplexes, multi-unit residential properties, and commercial real estate depending on their objectives and budget.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "INV003",
+  "category": "Investor",
+  "intent": "investment_starting_capital",
+  "keywords": [
+    "money needed to invest",
+    "investment down payment",
+    "how much money to invest",
+    "real estate investment cost",
+    "starting capital"
+  ],
+  "question": "How much money do I need to start investing in real estate?",
+  "answer": "The amount required depends on the property type, financing arrangement, down payment requirements, and associated closing costs.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "INV004",
+  "category": "Investor",
+  "intent": "rental_vs_appreciation_strategy",
+  "keywords": [
+    "rental property",
+    "future appreciation",
+    "investment strategy",
+    "cash flow or appreciation",
+    "rental versus appreciation"
+  ],
+  "question": "Should I invest in a rental property or a property for future appreciation?",
+  "answer": "The best strategy depends on your financial goals, cash flow expectations, investment timeline, and risk tolerance.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "INV005",
+  "category": "Investor",
+  "intent": "evaluate_investment_property",
+  "keywords": [
+    "evaluate investment property",
+    "good investment property",
+    "property analysis",
+    "rental demand",
+    "investment potential"
+  ],
+  "question": "How do I evaluate a potential investment property?",
+  "answer": "Review the property's location, condition, rental demand, expected expenses, market trends, and long-term growth potential.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "INV006",
+  "category": "Investor",
+  "intent": "ottawa_investment_market",
+  "keywords": [
+    "Ottawa good investment",
+    "invest in Ottawa",
+    "Ottawa real estate investment",
+    "Ottawa investment market",
+    "Ottawa rental market"
+  ],
+  "question": "Is Ottawa a good city for real estate investment?",
+  "answer": "Ottawa offers a stable economy, government employment base, growing population, and consistent housing demand, making it attractive to many investors.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "INV007",
+  "category": "Investor",
+  "intent": "real_estate_investment_risks",
+  "keywords": [
+    "investment risks",
+    "real estate risks",
+    "rental property risks",
+    "investment problems",
+    "market risk"
+  ],
+  "question": "What risks should I consider before investing in real estate?",
+  "answer": "Potential risks include market fluctuations, vacancies, maintenance costs, financing challenges, and changes in economic conditions.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "INV008",
+  "category": "Investor",
+  "intent": "convert_home_to_rental",
+  "keywords": [
+    "keep home as rental",
+    "rent current home",
+    "convert house to rental",
+    "relocation rental property",
+    "keep property after moving"
+  ],
+  "question": "Can I keep my current home as a rental property after relocating?",
+  "answer": "Depending on your financial situation and long-term goals, converting your current property into a rental investment may be an option worth exploring.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "INV009",
+  "category": "Investor",
+  "intent": "positive_cash_flow",
+  "keywords": [
+    "positive cash flow",
+    "rental cash flow",
+    "investment cash flow",
+    "rental income expenses",
+    "property cash flow"
+  ],
+  "question": "How do I determine if a property will generate positive cash flow?",
+  "answer": "Compare expected rental income against mortgage payments, taxes, insurance, maintenance costs, and other operating expenses.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "INV010",
+  "category": "Investor",
+  "intent": "investment_consultation",
+  "keywords": [
+    "investment consultation",
+    "explore investment opportunities",
+    "real estate investor consultation",
+    "investment next step",
+    "investment opportunities"
+  ],
+  "question": "What is the next step if I want to explore investment opportunities?",
+  "answer": "Schedule a consultation to discuss your goals, budget, financing readiness, and preferred investment strategy.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "MIL001",
+  "category": "Military Relocation",
+  "intent": "military_relocation_overview",
+  "keywords": [
+    "military relocation",
+    "posted to Ottawa",
+    "military move",
+    "CAF relocation",
+    "relocation support"
+  ],
+  "question": "How can a real estate professional help with a military relocation?",
+  "answer": "A real estate professional can help military members and their families understand local housing options, neighbourhoods, timelines, and the buying or selling process during a relocation.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team - Military Relocation"
+},
+{
+  "id": "MIL002",
+  "category": "Military Relocation",
+  "intent": "house_hunting_trip",
+  "keywords": [
+    "house hunting trip",
+    "HHT",
+    "military HHT",
+    "relocation trip",
+    "house hunting visit"
+  ],
+  "question": "What is a House-Hunting Trip (HHT)?",
+  "answer": "A House-Hunting Trip gives military members and their families an opportunity to visit their new location, explore neighbourhoods, view properties, and make housing decisions before relocating.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team - Military Relocation"
+},
+{
+  "id": "MIL003",
+  "category": "Military Relocation",
+  "intent": "military_posting_timeline",
+  "keywords": [
+    "posting timeline",
+    "military move date",
+    "relocation timeline",
+    "posting date",
+    "move deadline"
+  ],
+  "question": "When should I start planning for a military relocation?",
+  "answer": "It is helpful to begin planning as soon as your posting or relocation timeline is confirmed so you have time to review housing options, financing, and moving arrangements.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team - Military Relocation"
+},
+{
+  "id": "MIL004",
+  "category": "Military Relocation",
+  "intent": "buy_or_rent_after_posting",
+  "keywords": [
+    "buy or rent military",
+    "rent after posting",
+    "buy after relocation",
+    "military housing choice",
+    "posting housing"
+  ],
+  "question": "Should I buy or rent after a military posting?",
+  "answer": "The best option depends on your posting duration, financial situation, housing needs, and long-term plans.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team - Military Relocation"
+},
+{
+  "id": "MIL005",
+  "category": "Military Relocation",
+  "intent": "military_neighbourhood_selection",
+  "keywords": [
+    "military neighbourhood",
+    "where to live in Ottawa",
+    "near base",
+    "posting neighbourhood",
+    "military family neighbourhood"
+  ],
+  "question": "What should military families consider when choosing a neighbourhood?",
+  "answer": "Consider commuting distance, schools, childcare, public transit, nearby services, housing type, and the needs of your household.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team - Military Relocation"
+},
+{
+  "id": "MIL006",
+  "category": "Military Relocation",
+  "intent": "selling_before_relocation",
+  "keywords": [
+    "sell before posting",
+    "sell home before move",
+    "military seller",
+    "relocation sale",
+    "selling due to posting"
+  ],
+  "question": "Can you help me sell my current home before I relocate?",
+  "answer": "Yes. A real estate professional can help you prepare the property for sale, review market conditions, and coordinate the selling timeline with your relocation plans.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team - Military Relocation"
+},
+{
+  "id": "MIL007",
+  "category": "Military Relocation",
+  "intent": "buying_before_arrival",
+  "keywords": [
+    "buy before arriving",
+    "remote home purchase",
+    "military remote buyer",
+    "buy from another city",
+    "relocation purchase"
+  ],
+  "question": "Can I start searching for a home before arriving in Ottawa?",
+  "answer": "Yes. You can begin reviewing neighbourhoods and available properties remotely before your arrival, while coordinating next steps with a real estate professional.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team - Military Relocation"
+},
+{
+  "id": "MIL008",
+  "category": "Military Relocation",
+  "intent": "military_relocation_documents",
+  "keywords": [
+    "relocation documents",
+    "posting documents",
+    "military paperwork",
+    "relocation information",
+    "documents for move"
+  ],
+  "question": "What information should I have ready when discussing my military relocation?",
+  "answer": "It is helpful to know your destination, anticipated relocation date, housing preference, budget range, family needs, and any important timing requirements.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team - Military Relocation"
+},
+{
+  "id": "MIL009",
+  "category": "Military Relocation",
+  "intent": "military_relocation_urgent",
+  "keywords": [
+    "urgent military move",
+    "short notice posting",
+    "quick relocation",
+    "immediate posting",
+    "urgent housing"
+  ],
+  "question": "What if my military relocation is happening on short notice?",
+  "answer": "A short-notice relocation may require a more focused housing search and faster coordination. A real estate professional can help prioritize the most urgent housing and timing requirements.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team - Military Relocation"
+},
+{
+  "id": "MIL010",
+  "category": "Military Relocation",
+  "intent": "military_relocation_consultation",
+  "keywords": [
+    "military relocation consultation",
+    "speak with relocation specialist",
+    "military real estate help",
+    "relocation appointment",
+    "military housing consultation"
+  ],
+  "question": "What is the next step if I need help with a military relocation?",
+  "answer": "The next step is to schedule a consultation so your relocation timeline, housing needs, preferred location, and next actions can be reviewed.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team - Military Relocation"
+},
+{
+  "id": "REL001",
+  "category": "Ottawa Relocation",
+  "intent": "ottawa_relocation_overview",
+  "keywords": [
+    "relocating to Ottawa",
+    "move to Ottawa",
+    "moving to Ottawa",
+    "Ottawa relocation",
+    "new to Ottawa"
+  ],
+  "question": "What should I know before relocating to Ottawa?",
+  "answer": "Before relocating to Ottawa, consider your preferred neighbourhood, commute, housing budget, schools, public transit, lifestyle needs, and proximity to work or essential services.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "REL002",
+  "category": "Ottawa Relocation",
+  "intent": "ottawa_neighbourhood_selection",
+  "keywords": [
+    "Ottawa neighbourhood",
+    "best area in Ottawa",
+    "where to live Ottawa",
+    "Ottawa communities",
+    "choose Ottawa neighbourhood"
+  ],
+  "question": "How do I choose the right neighbourhood in Ottawa?",
+  "answer": "Consider factors such as commute time, housing type, schools, public transit, amenities, community atmosphere, and your preferred lifestyle.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "REL003",
+  "category": "Ottawa Relocation",
+  "intent": "ottawa_commute",
+  "keywords": [
+    "Ottawa commute",
+    "commute time",
+    "work commute Ottawa",
+    "transportation Ottawa",
+    "travel to work"
+  ],
+  "question": "What should I consider about commuting when moving to Ottawa?",
+  "answer": "Review the distance to your workplace, public transit access, major road connections, parking availability, and typical travel times when comparing neighbourhoods.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "REL004",
+  "category": "Ottawa Relocation",
+  "intent": "ottawa_schools",
+  "keywords": [
+    "Ottawa schools",
+    "schools near home",
+    "family relocation Ottawa",
+    "school districts Ottawa",
+    "children schools Ottawa"
+  ],
+  "question": "What should families consider about schools when relocating to Ottawa?",
+  "answer": "Families may want to review nearby schools, school-board options, transportation, childcare availability, and proximity to community services.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "REL005",
+  "category": "Ottawa Relocation",
+  "intent": "ottawa_buy_or_rent",
+  "keywords": [
+    "buy or rent Ottawa",
+    "renting in Ottawa",
+    "buying in Ottawa",
+    "Ottawa housing choice",
+    "move to Ottawa housing"
+  ],
+  "question": "Should I buy or rent when relocating to Ottawa?",
+  "answer": "The decision depends on your relocation timeline, financial situation, housing needs, and long-term plans.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "REL006",
+  "category": "Ottawa Relocation",
+  "intent": "ottawa_housing_types",
+  "keywords": [
+    "Ottawa housing types",
+    "condo Ottawa",
+    "townhouse Ottawa",
+    "detached home Ottawa",
+    "housing options Ottawa"
+  ],
+  "question": "What types of housing are available in Ottawa?",
+  "answer": "Ottawa offers a range of housing options including condominiums, townhouses, detached homes, semi-detached homes, and rental properties.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "REL007",
+  "category": "Ottawa Relocation",
+  "intent": "remote_property_search",
+  "keywords": [
+    "search from another city",
+    "remote home search",
+    "buy before moving Ottawa",
+    "virtual home search",
+    "Ottawa remote buyer"
+  ],
+  "question": "Can I begin searching for a home before moving to Ottawa?",
+  "answer": "Yes. You can begin reviewing neighbourhoods and available properties remotely and coordinate virtual or in-person viewings with a real estate professional.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "REL008",
+  "category": "Ottawa Relocation",
+  "intent": "ottawa_relocation_timeline",
+  "keywords": [
+    "moving timeline Ottawa",
+    "relocation timeline Ottawa",
+    "when to start home search",
+    "move date Ottawa",
+    "Ottawa relocation planning"
+  ],
+  "question": "When should I begin planning my move to Ottawa?",
+  "answer": "It is helpful to begin planning as early as possible so you have time to review neighbourhoods, housing options, financing, and your moving timeline.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "REL009",
+  "category": "Ottawa Relocation",
+  "intent": "ottawa_local_services",
+  "keywords": [
+    "Ottawa amenities",
+    "services Ottawa",
+    "public transit Ottawa",
+    "shopping Ottawa",
+    "community services Ottawa"
+  ],
+  "question": "What local services should I consider when choosing where to live in Ottawa?",
+  "answer": "Consider access to public transit, grocery stores, healthcare, recreation, parks, schools, shopping, and other services important to your household.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "REL010",
+  "category": "Ottawa Relocation",
+  "intent": "ottawa_relocation_consultation",
+  "keywords": [
+    "Ottawa relocation consultation",
+    "speak with Ottawa realtor",
+    "Ottawa moving help",
+    "relocation appointment",
+    "Ottawa real estate consultation"
+  ],
+  "question": "What is the next step if I need help relocating to Ottawa?",
+  "answer": "The next step is to schedule a consultation to discuss your relocation timeline, housing needs, preferred neighbourhoods, budget, and next actions.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "SEL001",
+  "category": "Seller",
+  "intent": "selling_home_start",
+  "keywords": [
+    "sell my home",
+    "selling property",
+    "start selling",
+    "home seller",
+    "how to sell house"
+  ],
+  "question": "What should I do first if I am thinking about selling my home?",
+  "answer": "Start by reviewing your goals, preferred selling timeline, property condition, and current market conditions with a real estate professional.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "SEL002",
+  "category": "Seller",
+  "intent": "home_value_estimate",
+  "keywords": [
+    "home value",
+    "property value",
+    "how much is my house worth",
+    "selling price",
+    "market value"
+  ],
+  "question": "How is the value of my home determined?",
+  "answer": "A property's value is generally influenced by its location, condition, size, features, recent comparable sales, and current market conditions.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "SEL003",
+  "category": "Seller",
+  "intent": "prepare_home_for_sale",
+  "keywords": [
+    "prepare home for sale",
+    "getting house ready",
+    "home preparation",
+    "sell house preparation",
+    "property presentation"
+  ],
+  "question": "How should I prepare my home for sale?",
+  "answer": "Preparation may include cleaning, decluttering, completing minor repairs, improving presentation, and discussing staging options with your real estate professional.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "SEL004",
+  "category": "Seller",
+  "intent": "seller_timeline",
+  "keywords": [
+    "how long to sell",
+    "selling timeline",
+    "time to sell house",
+    "property sale timeline",
+    "how quickly can I sell"
+  ],
+  "question": "How long does it usually take to sell a home?",
+  "answer": "The timeline varies depending on market conditions, property type, location, pricing, and buyer demand.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "SEL005",
+  "category": "Seller",
+  "intent": "seller_costs",
+  "keywords": [
+    "cost to sell",
+    "selling expenses",
+    "seller closing costs",
+    "real estate commission",
+    "selling fees"
+  ],
+  "question": "What costs should I expect when selling a property?",
+  "answer": "Potential costs may include real estate fees, legal fees, moving expenses, property preparation costs, and other closing-related expenses.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "SEL006",
+  "category": "Seller",
+  "intent": "property_staging",
+  "keywords": [
+    "home staging",
+    "stage my home",
+    "property staging",
+    "prepare house for buyers",
+    "staging"
+  ],
+  "question": "Should I stage my home before selling?",
+  "answer": "Staging can help improve presentation and allow buyers to better visualize the space, depending on the property and market conditions.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "SEL007",
+  "category": "Seller",
+  "intent": "seller_offer_review",
+  "keywords": [
+    "review offer",
+    "buyer offer",
+    "offer on my home",
+    "selling offer",
+    "accepting an offer"
+  ],
+  "question": "What should I consider when reviewing an offer on my property?",
+  "answer": "Consider the offered price, conditions, financing, deposit, closing date, and other terms before deciding how to respond.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "SEL008",
+  "category": "Seller",
+  "intent": "sell_before_buying",
+  "keywords": [
+    "sell before buying",
+    "buy and sell",
+    "sell current home first",
+    "purchase another home",
+    "selling then buying"
+  ],
+  "question": "Should I sell my current home before buying another property?",
+  "answer": "The best approach depends on your financial situation, market conditions, financing options, and preferred timeline.",
+  "public": true,
+  "human_review": true,
+  "route_to": "ISA Team"
+},
+{
+  "id": "SEL009",
+  "category": "Seller",
+  "intent": "seller_marketing",
+  "keywords": [
+    "market my property",
+    "home marketing",
+    "selling marketing strategy",
+    "property listing",
+    "advertise home"
+  ],
+  "question": "How will my property be marketed to potential buyers?",
+  "answer": "Marketing may include professional listing preparation, online exposure, property photography, buyer outreach, open houses, and other strategies appropriate to the property.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+},
+{
+  "id": "SEL010",
+  "category": "Seller",
+  "intent": "seller_consultation",
+  "keywords": [
+    "seller consultation",
+    "speak with realtor",
+    "selling appointment",
+    "home selling help",
+    "sell property consultation"
+  ],
+  "question": "What is the next step if I want to sell my property?",
+  "answer": "The next step is to schedule a consultation to review your property, goals, preferred timeline, market conditions, and recommended selling strategy.",
+  "public": true,
+  "human_review": false,
+  "route_to": "ISA Team"
+}
+ ]
+}
+

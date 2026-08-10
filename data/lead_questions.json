@@ -1,0 +1,261 @@
+{
+  "lead_questions": [
+    {
+      "intent": "buyer",
+      "category": "Buyer",
+      "questions": [
+        {
+          "field": "property_type",
+          "question": "What type of property are you looking for?"
+        },
+        {
+          "field": "preferred_location",
+          "question": "Which Ottawa neighbourhood or area are you interested in?"
+        },
+        {
+          "field": "budget",
+          "question": "What is your approximate budget range?"
+        },
+        {
+          "field": "timeline",
+          "question": "When are you hoping to purchase?"
+        },
+        {
+          "field": "financing",
+          "question": "Have you already received mortgage pre-approval?"
+        },
+        {
+          "field": "name",
+          "question": "May I have your name?"
+        },
+        {
+          "field": "contact",
+          "question": "What is the best email address or phone number for the team to contact you?"
+        }
+      ],
+      "route_to": "ISA Team"
+    },
+
+    {
+      "intent": "seller",
+      "category": "Seller",
+      "questions": [
+        {
+          "field": "property_type",
+          "question": "What type of property are you planning to sell?"
+        },
+        {
+          "field": "property_location",
+          "question": "Where is the property located?"
+        },
+        {
+          "field": "selling_timeline",
+          "question": "When are you hoping to sell the property?"
+        },
+        {
+          "field": "property_status",
+          "question": "Is the property currently listed for sale?"
+        },
+        {
+          "field": "selling_reason",
+          "question": "What is the main reason you are considering selling?"
+        },
+        {
+          "field": "valuation_interest",
+          "question": "Would you like to discuss the estimated market value of your property with the team?"
+        },
+        {
+          "field": "name",
+          "question": "May I have your name?"
+        },
+        {
+          "field": "contact",
+          "question": "What is the best email address or phone number for the team to contact you?"
+        }
+      ],
+      "route_to": "ISA Team"
+    },
+{
+  "intent": "investor",
+  "category": "Investor",
+  "questions": [
+    {
+      "field": "investment_goal",
+      "question": "What is your main real estate investment goal?"
+    },
+    {
+      "field": "property_type",
+      "question": "What type of investment property are you interested in?"
+    },
+    {
+      "field": "preferred_location",
+      "question": "Which Ottawa area or neighbourhood are you interested in?"
+    },
+    {
+      "field": "budget",
+      "question": "What is your approximate investment budget range?"
+    },
+    {
+      "field": "financing",
+      "question": "Have you already arranged financing or spoken with a mortgage professional?"
+    },
+    {
+      "field": "timeline",
+      "question": "When are you hoping to make an investment?"
+    },
+    {
+      "field": "investment_experience",
+      "question": "Is this your first real estate investment?"
+    },
+    {
+      "field": "name",
+      "question": "May I have your name?"
+    },
+    {
+      "field": "contact",
+      "question": "What is the best email address or phone number for the team to contact you?"
+    }
+  ],
+  "route_to": "ISA Team"
+},
+
+{
+  "intent": "military_relocation",
+  "category": "Military Relocation",
+  "questions": [
+    {
+      "field": "posting_destination",
+      "question": "What is your new posting location?"
+    },
+    {
+      "field": "relocation_date",
+      "question": "What is your expected relocation or report-for-duty date?"
+    },
+    {
+      "field": "housing_preference",
+      "question": "Are you planning to buy, rent, or are you still deciding?"
+    },
+    {
+      "field": "house_hunting_trip",
+      "question": "Do you already have a House-Hunting Trip date scheduled?"
+    },
+    {
+      "field": "property_type",
+      "question": "What type of home are you looking for?"
+    },
+    {
+      "field": "preferred_location",
+      "question": "Do you have a preferred Ottawa neighbourhood or commuting area?"
+    },
+    {
+      "field": "budget",
+      "question": "What is your approximate housing budget range?"
+    },
+    {
+      "field": "household_needs",
+      "question": "Are there any important household needs, such as schools, commuting distance, or accessibility, that we should consider?"
+    },
+    {
+      "field": "timeline_urgency",
+      "question": "How urgent is your housing search?"
+    },
+    {
+      "field": "name",
+      "question": "May I have your name?"
+    },
+    {
+      "field": "contact",
+      "question": "What is the best email address or phone number for the team to contact you?"
+    }
+  ],
+  "route_to": "ISA Team - Military Relocation"
+},
+{
+  "intent": "ottawa_relocation",
+  "category": "Ottawa Relocation",
+  "questions": [
+    {
+      "field": "current_location",
+      "question": "Where are you currently relocating from?"
+    },
+    {
+      "field": "relocation_date",
+      "question": "When are you planning to relocate to Ottawa?"
+    },
+    {
+      "field": "housing_preference",
+      "question": "Are you planning to buy, rent, or are you still deciding?"
+    },
+    {
+      "field": "property_type",
+      "question": "What type of property are you looking for?"
+    },
+    {
+      "field": "preferred_location",
+      "question": "Do you already have a preferred Ottawa neighbourhood or area?"
+    },
+    {
+      "field": "budget",
+      "question": "What is your approximate housing budget range?"
+    },
+    {
+      "field": "commute_requirements",
+      "question": "Is proximity to your workplace or a specific commuting area important to you?"
+    },
+    {
+      "field": "household_needs",
+      "question": "Are there any important household needs, such as schools, public transit, accessibility, or nearby services, that we should consider?"
+    },
+    {
+      "field": "timeline_urgency",
+      "question": "How soon would you like to secure your housing?"
+    },
+    {
+      "field": "name",
+      "question": "May I have your name?"
+    },
+    {
+      "field": "contact",
+      "question": "What is the best email address or phone number for the team to contact you?"
+    }
+  ],
+  "route_to": "ISA Team"
+},
+
+{
+  "intent": "general_real_estate",
+  "category": "General Real Estate",
+  "questions": [
+    {
+      "field": "inquiry_topic",
+      "question": "What real estate topic or question can I help you with?"
+    },
+    {
+      "field": "service_interest",
+      "question": "Are you looking for general information, or would you like assistance from the Anna Alemi Real Estate team?"
+    },
+    {
+      "field": "client_type",
+      "question": "Is your inquiry related to buying, selling, investing, or relocating?"
+    },
+    {
+      "field": "timeline",
+      "question": "Do you have a particular timeline for your real estate plans?"
+    },
+    {
+      "field": "human_assistance",
+      "question": "Would you like a member of the team to contact you?"
+    },
+    {
+      "field": "name",
+      "question": "If you would like follow-up assistance, may I have your name?"
+    },
+    {
+      "field": "contact",
+      "question": "What is the best email address or phone number for the team to contact you?"
+    }
+  ],
+  "route_to": "ISA Team"
+}
+  ]
+}
