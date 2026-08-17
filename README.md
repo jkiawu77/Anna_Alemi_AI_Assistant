@@ -145,6 +145,6 @@ Data Analytics & Artificial Intelligence
 
 Practicum Project in fulfillment of my studies at Willis College, Ottawa, ON. 
 
-Submitted to Chief Hamel & Anna Alemi (CEO, Anna Alemi Real Estate) https://annaalemi.com/ 
+Submitted to Moog Hamel & Anna Alemi (CEO, Anna Alemi Real Estate) https://annaalemi.com/ 
 
 2026
