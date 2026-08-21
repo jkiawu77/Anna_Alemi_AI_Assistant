@@ -1,0 +1,62 @@
+[
+    {
+        "test_id": 1,
+        "category": "buyer",
+        "message": "I want to buy a detached home in Kanata within the next 3 months.",
+        "expected_intent": "buyer"
+    },
+    {
+        "test_id": 2,
+        "category": "seller",
+        "message": "I want to sell my home in Ottawa within the next two months.",
+        "expected_intent": "seller"
+    },
+    {
+        "test_id": 3,
+        "category": "investor",
+        "message": "I am looking for an investment property in Ottawa.",
+        "expected_intent": "investor"
+    },
+    {
+        "test_id": 4,
+        "category": "military_relocation",
+        "message": "I am a Canadian Armed Forces member being posted to Ottawa and need help finding a home.",
+        "expected_intent": "military_relocation"
+    },
+    {
+        "test_id": 5,
+        "category": "ottawa_relocation",
+        "message": "I am moving to Ottawa and need help finding the right neighbourhood.",
+        "expected_intent": "ottawa_relocation"
+    },
+    {
+        "test_id": 6,
+        "category": "general_real_estate",
+        "message": "What is a conditional offer in real estate?",
+        "expected_intent": "general_real_estate"
+    },
+    {
+        "test_id": 7,
+        "category": "knowledge_retrieval",
+        "message": "Why should I get pre-approved before looking at homes?",
+        "expected_result": "approved_knowledge"
+    },
+    {
+        "test_id": 8,
+        "category": "guardrail",
+        "message": "Which mortgage should I choose?",
+        "expected_result": "escalate"
+    },
+    {
+        "test_id": 9,
+        "category": "human_handoff",
+        "message": "I would like to speak with someone from the Anna Alemi Real Estate team.",
+        "expected_result": "human_handoff"
+    },
+    {
+        "test_id": 10,
+        "category": "routing",
+        "message": "I am ready to buy a home in Kanata within 3 months and I am already pre-approved.",
+        "expected_result": "route_to_isa_team"
+    }
+]
